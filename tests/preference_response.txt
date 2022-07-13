@@ -1,0 +1,137 @@
+
+stdClass Object
+(
+    [additional_info] => 
+    [auto_return] => approved
+    [back_urls] => stdClass Object
+        (
+            [failure] => https://meusite.com/failure
+            [pending] => https://meusite.com/pending
+            [success] => https://meusite.com/success
+        )
+
+    [binary_mode] => 
+    [client_id] => 1187161972750000
+    [collector_id] => 65257000
+    [coupon_code] => 
+    [coupon_labels] => 
+    [date_created] => 2022-07-13T06:53:11.322-04:00
+    [date_of_expiration] => 
+    [expiration_date_from] => 
+    [expiration_date_to] => 
+    [expires] => 
+    [external_reference] => REF958
+    [id] => 65257000-c1a246ed-1eac-0000-0000-1470132dac26
+    [init_point] => https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=65257000-c1a246ed-1eac-0000-0000-1470132dac26
+    [internal_metadata] => 
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => MP165770959062cea4166e361
+                    [category_id] => service
+                    [currency_id] => BRL
+                    [description] => Você vai desenvolver com uma das linguagens mais populares no mercado
+                    [picture_url] => https://www.mercadopago.com/org-img/MP3/home/logomp3.gif
+                    [title] => Curso de PHP
+                    [quantity] => 1
+                    [unit_price] => 59.9
+                )
+
+        )
+
+    [marketplace] => MP-MKT-1187161972750000
+    [marketplace_fee] => 5
+    [metadata] => stdClass Object
+        (
+        )
+
+    [notification_url] => https://meusite.com/wook_mercadopago
+    [operation_type] => regular_payment
+    [payer] => stdClass Object
+        (
+            [phone] => stdClass Object
+                (
+                    [area_code] => 
+                    [number] => 
+                )
+
+            [address] => stdClass Object
+                (
+                    [zip_code] => 
+                    [street_name] => 
+                    [street_number] => 
+                )
+
+            [email] => 
+            [identification] => stdClass Object
+                (
+                    [number] => 
+                    [type] => 
+                )
+
+            [name] => 
+            [surname] => 
+            [date_created] => 
+            [last_purchase] => 
+        )
+
+    [payment_methods] => stdClass Object
+        (
+            [default_card_id] => 
+            [default_payment_method_id] => 
+            [excluded_payment_methods] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => 
+                        )
+
+                )
+
+            [excluded_payment_types] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => pix
+                        )
+
+                )
+
+            [installments] => 12
+            [default_installments] => 
+        )
+
+    [processing_modes] => 
+    [product_id] => 
+    [redirect_urls] => stdClass Object
+        (
+            [failure] => 
+            [pending] => 
+            [success] => 
+        )
+
+    [sandbox_init_point] => https://sandbox.mercadopago.com.br/checkout/v1/redirect?pref_id=65257000-c1a246ed-1eac-0000-0000-1470132dac26
+    [site_id] => MLB
+    [shipments] => stdClass Object
+        (
+            [default_shipping_method] => 
+            [receiver_address] => stdClass Object
+                (
+                    [zip_code] => 
+                    [street_name] => 
+                    [street_number] => 
+                    [floor] => 
+                    [apartment] => 
+                    [city_name] => 
+                    [state_name] => 
+                    [country_name] => 
+                )
+
+        )
+
+    [statement_descriptor] => MINHA EMPRESA
+    [total_amount] => 
+    [last_updated] => 
+)
+

@@ -1,6 +1,6 @@
 ### Crie um link de pagamento do Mercado Pago
 
-´´´php
+```php
 <?php 
 
 require '../src/Preference.php';
@@ -46,4 +46,4 @@ $response = $preference->save();
 # Link do checkout
 echo $preference->get_link();
 
-´´´
+```
